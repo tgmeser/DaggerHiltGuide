@@ -27,7 +27,7 @@ object AppModule {
 
 
     //The point of same return types of provide methods
-    //The meaning what if we want to different results on same return type
+    //The meaning what if we want different results on same return type
     //We should name annotation above provide methods to make hilt recognize them
 
     @Singleton //Singleton annotations for that we use SingletonComponent in InstallIn
