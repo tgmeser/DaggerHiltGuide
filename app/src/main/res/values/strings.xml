@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hilt Guide</string>
+    <string name="string2di">String just for DI from MainModule !</string>
+</resources>
