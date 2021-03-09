@@ -18,7 +18,6 @@ object MainModule {
     //We use injections that belongs here, in main activity, focus the point !
     //The point is we limit injections through Scope types above provide methods !
     //There for we can configure them to activities, fragments,viewmodels, views ...
-    //Scope ordering is : Application(Singleton)>Activity>Viewmodel>Fragment>View
 
     @ActivityScoped //We can not use Singleton, we work on activitycomponent right now
     @Provides
